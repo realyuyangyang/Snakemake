@@ -1,0 +1,4 @@
+#snakemake -s Snakefile -j 4
+rule hello:
+    shell:
+        'touch hello.txt'
